@@ -357,7 +357,7 @@ template {
 }
 
 .navbar {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .navbar-top {
@@ -370,8 +370,8 @@ template {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .navbar__search {
@@ -484,7 +484,10 @@ template {
   .navbar__search {
     margin-left: auto;
   }
-  .navbar-menu pt__link {
+  .navbar-menu {
+    padding: 22px 0;
+  }
+  .navbar-menu__link {
     font-size: 12px;
     line-height: 15px;
   }
