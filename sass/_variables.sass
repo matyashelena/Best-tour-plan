@@ -12,3 +12,21 @@ $light: #fff
   background-color: $primary
   cursor: pointer
   color: $light
+@mixin size-title
+  font-weight: 600
+  font-size: 36px
+  line-height: 45px
+  text-transform: uppercase
+@mixin prev-next
+  position: absolute
+  top: 50%
+  transform: translateY(-50%)
+  z-index: 99
+  width: 30px
+  height: 30px
+  border: none
+  cursor: pointer
+  background-repeat: no-repeat
+  background-position: center
+  background-size: 10px
+  background-color: transparent
