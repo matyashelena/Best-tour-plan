@@ -21,5 +21,10 @@ const reviewsSlider = new Swiper('.reviews-slider', {
     nextEl: '.reviews-slider__button--next',
     prevEl: '.reviews-slider__button--prev',
   },
+});
 
+let menuButton = document.querySelector(".menu-button");
+menuButton.addEventListener("click", function () {
+  console.log('Hello');
+  document.querySelector(".navbar-bottom").classList.toggle("navbar-bottom--visible");
 });
